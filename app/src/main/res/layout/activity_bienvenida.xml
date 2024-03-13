@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondo1"
+    tools:context=".Bienvenida">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenida"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/fuente3"
+        android:textSize="40sp"
+
+        />
+    <TextView
+        android:id="@+id/recibirNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fuente3"
+        />
+    <TextView
+        android:id="@+id/recibirAlias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fuente3"
+        />
+    <TextView
+        android:id="@+id/recibirEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fuente3"
+        />
+    <TextView
+        android:id="@+id/recibirDirec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fuente3"
+        />
+    <TextView
+        android:id="@+id/recibirTele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fuente3"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnIniciar"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@drawable/btnbienvenida"
+        android:text="Continuar"
+        android:fontFamily="@font/fuente3"
+        app:cornerRadius="100dp"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        />
+
+
+
+</LinearLayout>

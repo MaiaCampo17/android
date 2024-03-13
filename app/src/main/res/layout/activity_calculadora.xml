@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    tools:context=".Calculadora"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cal"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/fuente3"
+
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/Productos"
+        android:layout_gravity="center"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/tv"
+            android:id="@+id/Televisor"
+            android:fontFamily="@font/fuente3"
+
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/rad"
+            android:id="@+id/Radio"
+            android:fontFamily="@font/fuente3"
+            android:layout_gravity="center"
+            />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/precio"
+        android:id="@+id/precio"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fuente3"
+        android:layout_marginLeft="70dp"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/descuento"
+        android:id="@+id/Descuento"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fuente3"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/mostrarDescuento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:fontFamily="@font/fuente3" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:layout_gravity="center"
+        android:id="@+id/Calcula"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fuente3"
+        />
+
+    <EditText
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/total"
+        android:id="@+id/total"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fuente3"
+        android:layout_marginLeft="70dp"
+        />
+
+
+
+
+
+
+
+</LinearLayout>

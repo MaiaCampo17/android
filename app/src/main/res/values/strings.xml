@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="titulo">App lenguajes</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="titulo1">Menu</string>
+    <string name="titulo2">Lenguajes</string>
+    <string name="titulo3">Frameworks</string>
+    <string name="titulo6"> Iniciar Juego</string>
+    <string name="pre">¿Cuál de estos es lenguaje para desarrolar Móvil?</string>
+    <string name="boton1">PHP</string>
+    <string name="boton2">Laravel</string>
+    <string name="boton3">Kotlin</string>
+    <string name="boton4">JavaScript</string>
+    <string name="titulo4">Movil</string>
+    <string name="titulo5">Web</string>
+    <string name="pro1">PHP</string>
+    <string name="pro2">JavaScript</string>
+    <string name="pro3">Python</string>
+    <string name="php">PHP</string>
+    <string name="des">Es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML.</string>
+    <string name="javascript">JavaScript</string>
+    <string name="des1">JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas.</string>
+    <string name="python">Python</string>
+    <string name="des3">Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML).</string>
+    <string name="ko">Kotlin</string>
+    <string name="des4">Kotlin es un lenguaje de programación de tipado estático para Java, Android, el navegador y próximamente LLVM, 100% interoperable con Java</string>
+    <string name="java">Java</string>
+    <string name="des5">Java es una plataforma informática de lenguaje de programación creada por Sun Microsystems en 1995. Ha evolucionado desde sus humildes comienzos hasta impulsar una gran parte del mundo digital actual, ya que es una plataforma fiable en la que se crean muchos servicios y aplicaciones.</string>
+    <string name="sw">Swift</string>
+    <string name="des6">Swift es un lenguaje rápido y eficiente que proporciona información en tiempo real y puede incorporarse fácilmente al código de Objective-C existente. </string>
+
+
+    <string name="pregunta1">Preguntas 1 </string>
+    <string name="des7">¿Cuál de los siguientes lenguajes es conocido por su interoperabilidad con Java y su uso en el desarrollo de aplicaciones Android?</string>
+
+    <string name="pregunta2">Pregunta 2 </string>
+    <string name="des8">¿Cuál de las siguientes opciones se utiliza comúnmente como lenguaje de backend para el desarrollo de aplicaciones móviles?</string>
+
+    <string name="pregunta3">Pregunta 3 </string>
+    <string name="des9">¿Qué lenguaje de programación se utiliza principalmente en el desarrollo del lado del cliente para aplicaciones móviles?</string>
+
+    <string name="pregunta4">Pregunta 4 </string>
+    <string name="des10">¿Cuál de los siguientes lenguajes es conocido como el "lenguaje del lado del cliente" y se utiliza principalmente para agregar interactividad y dinamismo a las páginas web?</string>
+
+    <string name="pregunta5">Pregunta 5</string>
+    <string name="des11">¿Qué lenguaje de programación se utiliza principalmente en el lado del servidor para el desarrollo de aplicaciones web dinámicas y robustas?</string>
+    <string name="puntaje">Tu puntaje total es:</string>
+    <string name="puntajeTotal">Tu puntaje total es:</string>
+    <string name="volver_al_menu">Volver al menu</string>
+
+    <string name="ingresar">Ingresar Datos</string>
+    <string name="nombre">Ingresa su nombre</string>
+    <string name="alias">Ingresa su alias</string>
+    <string name="edad">Ingresar su edad</string>
+    <string name="direccion">Ingresar su direccion</string>
+    <string name="telefono">Ingresar su telefono</string>
+    <string name="conti">Continuar</string>
+
+
+    <string name="bienvenida">Bienvenido.</string>
+    <string name="formulario">Formulario</string>
+
+
+    <string name="feme">Femenino</string>
+    <string name="mas">Masculino</string>
+
+    <string name="idioma1">Español</string>
+    <string name="idioma2">Ingles</string>
+    <string name="idioma3">Aleman</string>
+    <string name="idioma4">Frances</string>
+
+
+    <string name="cal">Calculadora</string>
+    <string name="venta">Venta De Productos</string>
+    <string name="tv">Televisor</string>
+    <string name="rad">Radio</string>
+
+    <string name="descuento">Descuento 10% </string>
+    <string name="calcular">CALCULA</string>
+    <string name="precio">precio</string>
+    <string name="total">Total</string>
+
+    <string name="peli">Peliculas</string>
+
+    <string name="name">Nombre</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+
+
+    <string-array name="peliculas">
+        <item>Coco</item>
+        <item>Cars</item>
+        <item>Un Gran Dinosaurio</item>
+        <item>Up Una Ventura De Altura</item>
+        <item>Emoji</item>
+        <item>Toys Story</item>
+        <item>Turbo</item>
+        <item>Grandes Heroes</item>
+        <item>El Libro De La Selva </item>
+        <item>Buscando A Nemo</item>
+    </string-array>
+    <string name="peli1">Miguel, un niño de 12 años con un gran sueño de ser músico, se embarca en una aventura en el inframundo mexicano durante el Día de Muertos. Allí, conoce a sus ancestros y descubre la verdad sobre su familia y su pasión por la música.</string>
+    <string name="peli2">Rayo McQueen, un ambicioso auto de carreras novato, se pierde camino a la Copa Pistón y termina en Radiator Springs, un pequeño pueblo de la Ruta 66. Allí, conoce a Mater, una grúa oxidada pero de buen corazón, y a Sally, un Porsche 911 que sueña con revivir el pueblo. McQueen aprende sobre la amistad, la familia y la importancia de disfrutar del viaje, no solo del destino.</string>
+    <string name="peli3">En un mundo donde los dinosaurios no se extinguieron, Arlo, un joven apatosaurio tímido y torpe, se embarca en un viaje épico por un paisaje lleno de peligros. Tras caer de un acantilado y ser arrastrado por un río, se encuentra perdido y solo. En su camino, Arlo se topa con Spot, un niño salvaje que lo ayudará a superar sus miedos y descubrir su propia fuerza interior. Juntos, vivirán aventuras emocionantes y aprenderán el verdadero significado de la amistad.</string>
+    <string name="peli4">Carl Fredricksen, un anciano vendedor de globos, decide cumplir el sueño que compartía con su difunta esposa Ellie: viajar a las Cataratas del Paraíso en América del Sur. Para ello, ata miles de globos a su casa y la convierte en una nave voladora. Sin embargo, en su viaje inesperado, se ve acompañado por Russell, un niño explorador de 8 años.Juntos, Carl y Russell vivirán una emocionante aventura llena de peligros y descubrimientos en la jungla amazónica. Encontrarán un colorido loro parlante, un perro gigante y un explorador deshonrado. Aprenderán sobre la amistad, el valor de la perseverancia y la importancia de cumplir los sueños.</string>
+    <string name="peli5">En el interior del teléfono de un adolescente, existe una ciudad secreta llamada Textopolis, donde viven todos los emojis. Gene, un emoji con la capacidad de expresar múltiples emociones, se embarca en una aventura para convertirse en un emoji "normal". En el camino, se une a Jailbreak, una emoji rebelde, y Hi-5, un emoji que choca los cinco. Juntos, exploran las diferentes aplicaciones del teléfono y se enfrentan a diversos peligros.</string>
+    <string name="peli6">Toy Story nos lleva al mundo secreto de los juguetes que cobran vida cuando los humanos no están cerca. La historia gira en torno a Andy, un niño que tiene una gran colección de juguetes, siendo su favorito Woody, un vaquero de tela.Un día, Andy recibe por su cumpleaños un nuevo juguete: Buzz Lightyear, un astronauta espacial con luces y sonidos. Buzz rápidamente se convierte en el juguete favorito de Andy, relegando a Woody a un segundo plano.Celoso y confundido, Woody decide deshacerse de Buzz, pero accidentalmente lo tira por la ventana. Arrepentido, Woody se embarca en una aventura para rescatar a Buzz antes de que Andy se mude a una nueva casa.En su viaje, Woody y Buzz se enfrentan a diversos peligros, hacen nuevos amigos y aprenden el verdadero significado de la amistad y el compañerismo.</string>
+    <string name="peli7">Turbo es un caracol de jardín que sueña con ser el más rápido del mundo. Un día, por accidente, se expone a una sustancia que le da supervelocidad. Con su nuevo poder, Turbo decide competir en las 500 millas de Indianápolis, desafiando todas las expectativas.</string>
+    <string name="peli8">Hiro Hamada, un joven genio de la robótica, se ve envuelto en un misterio que amenaza a la ciudad de San Fransokyo. Junto a Baymax, un robot inflable diseñado para la salud, y un grupo de amigos inadaptados, Hiro forma un equipo de superhéroes para salvar el día.</string>
+    <string name="peli9">Mowgli, un niño criado por lobos en la selva india, se ve obligado a abandonar su hogar cuando el temible tigre Shere Khan lo amenaza. Guiado por la pantera Bagheera y el oso Baloo, Mowgli emprende un viaje para encontrar un lugar seguro al que llamar hogar. En el camino, se encontrará con diversos personajes, como la serpiente Kaa, el orangután King Louie y la loba Raksha, quienes le enseñarán sobre la vida en la selva y el significado de la familia.</string>
+    <string name="peli10">Marlin, un pez payaso sobreprotector, ve cómo su hijo Nemo es capturado por un buzo en la Gran Barrera de Coral. Emprendiendo un viaje lleno de peligros, Marlin se embarca en una búsqueda incansable para encontrar a su hijo. En el camino, se une a Dory, un pez cirujano azul con problemas de memoria a corto plazo, y juntos viven una serie de aventuras mientras recorren el océano.</string>
+    <string name="pelicula_1">Pelicula 1</string>
+
+
+</resources>

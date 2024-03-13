@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    android:gravity="center"
+    tools:context=".Menu"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo1"
+        android:textSize="50dp"
+        android:fontFamily="@font/fuente3"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/txtTitulo3"
+        android:textColor="@color/black"
+       >
+
+
+    </TextView>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo2"
+        android:fontFamily="@font/fuente3"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/btnLenguajes"
+        android:textColor="@color/black"
+        android:backgroundTint="@drawable/btningresar"
+
+        >
+
+    </Button>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo3"
+        android:textSize="20dp"
+        android:fontFamily="@font/fuente3"
+        android:id="@+id/btnFrameworks"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@drawable/btningresar">
+
+    </Button>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo6"
+        android:textSize="20dp"
+        android:fontFamily="@font/fuente3"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/btnPreguntas"
+        android:textColor="@color/black"
+        android:backgroundTint="@drawable/btningresar"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/fuente3"
+        android:backgroundTint="@drawable/btningresar"
+        android:text="@string/cal"
+        android:id="@+id/btnCalculadora"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/fuente3"
+        android:backgroundTint="@drawable/btningresar"
+        android:text="@string/peli"
+        android:id="@+id/btnPeliculas"
+
+        />
+
+
+
+
+
+
+
+</LinearLayout>

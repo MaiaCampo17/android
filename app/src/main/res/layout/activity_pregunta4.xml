@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondo1"
+    tools:context=".Pregunta4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pregunta4"
+        android:textSize="40sp"
+        android:fontFamily="@font/fuente3"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/des10"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:fontFamily="@font/fuente3"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@drawable/btnpreguntas"
+            android:text="@string/boton1"
+            android:id="@+id/SoniPhp"
+            android:fontFamily="@font/fuente3">
+
+        </Button>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@drawable/btnpreguntas"
+            android:text="@string/boton2"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/SoniLaravel"
+            android:fontFamily="@font/fuente3"
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        >
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@drawable/btnpreguntas"
+            android:text="@string/boton3"
+            android:id="@+id/SoniKotlin"
+            android:fontFamily="@font/fuente3"
+
+
+            >
+
+        </Button>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@drawable/btnpreguntas"
+            android:text="@string/boton4"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/SoniJavaScript"
+            android:fontFamily="@font/fuente3"
+            >
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

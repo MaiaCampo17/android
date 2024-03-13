@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    tools:context=".Ingresar">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:lottie_rawRes="@raw/ingresar"
+            android:fontFamily="@font/fuente3"/>
+
+
+        <LinearLayout
+            android:id="@+id/layoutcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            >
+
+
+            <TextView
+                android:id="@+id/textIngresar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/ingresar"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:fontFamily="@font/fuente3"
+
+
+                />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/formulario"
+
+                />
+
+            <EditText
+                android:id="@+id/nombre"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/nombre"
+                android:fontFamily="@font/fuente3"
+
+
+                />
+
+            <EditText
+                android:id="@+id/alias"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/alias"
+                android:fontFamily="@font/fuente3"
+
+                />
+
+            <EditText
+                android:id="@+id/edad"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/edad"
+                android:fontFamily="@font/fuente3"
+
+
+                />
+
+            <EditText
+                android:id="@+id/direccion"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/direccion"
+                android:fontFamily="@font/fuente3"
+
+
+                />
+
+            <EditText
+                android:id="@+id/telefono"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/telefono"
+                android:fontFamily="@font/fuente3"
+
+
+                />
+
+
+            <RadioGroup
+                android:id="@+id/genero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/Femenino"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/feme"
+                    android:fontFamily="@font/fuente3"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/Masculino"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mas"
+                    android:fontFamily="@font/fuente3"/>
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                >
+
+                <CheckBox
+                    android:id="@+id/Español"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/idioma1"
+                    android:fontFamily="@font/fuente3"/>
+
+                <CheckBox
+                    android:id="@+id/Ingles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/idioma2"
+                    android:fontFamily="@font/fuente3"/>
+
+                <CheckBox
+                    android:id="@+id/Aleman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/idioma3"
+                    android:fontFamily="@font/fuente3"/>
+
+                <CheckBox
+                    android:id="@+id/Frances"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/idioma4"
+                    android:fontFamily="@font/fuente3"/>
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnContinuar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@drawable/btningresar"
+                android:text="Registrar"
+                app:cornerRadius="100dp"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
